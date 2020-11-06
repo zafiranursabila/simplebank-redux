@@ -72,4 +72,4 @@ export const transactionSaldoReducer = (state = { saldoTotal: {} }, action) => {
         default:
             return state;
     }
-}
+} 

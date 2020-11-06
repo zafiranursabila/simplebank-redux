@@ -14,7 +14,7 @@ const Transactions = ({ history }) => {
   const dispatch = useDispatch();
 
   const logoutHandler = () => {
-    dispatch(logout());
+    dispatch(logout()); 
     history.push('/login');
   }
 
@@ -255,4 +255,4 @@ const Transactions = ({ history }) => {
   );
 }
 
-export default Transactions;
+export default Transactions; 
